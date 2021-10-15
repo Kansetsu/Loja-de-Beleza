@@ -1,0 +1,68 @@
+#carrinho{
+    height: 20px;
+    width: 20px;
+}
+
+
+body, head{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(192, 180, 177);
+}
+
+#cards{
+    margin-top: 4px;
+
+}
+
+#imagem-compra{
+    height: 500px;
+    width: 500px;
+}
+
+
+#avatar{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#carousel-img{
+    height: 500px;
+    width: 500px;
+    padding-left: 110px;
+ 
+}
+
+#kaiak{
+    height: 500px;
+    width: 500px;
+}
+
+#twitter{
+    height: 25px;
+    width: 25px;
+}
+
+#facebook{
+    height: 25px;
+    width: 25px;
+}
+
+#instagram{
+    height: 25px;
+    width: 25px;
+}
+
+#google{
+    height: 25px;
+    width: 25px;
+}
+
+#linkedin{
+    height: 33px;
+    width: 33px;
+}
+
+#github{
+    height: 35px;
+    width: 35px;
+}
