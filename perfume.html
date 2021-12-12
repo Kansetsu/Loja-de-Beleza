@@ -9,230 +9,137 @@
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="sortcut icon" href="assets/salon_mirror_makeup_cosmetics_beauty_icon_186822.svg" type="favicon"/>
+  <link rel="stylesheet" href="js/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/cosmetics_beauty_lipstick_pouch_makeup_icon_186818.svg">
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-    crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+  <link rel="stylesheet" href="js/glightbox/css/glightbox.min.css">
 
 
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center" data-aos="fade-down">
+  <div class="container d-flex align-items-center justify-content-between" data-aos="fade-down" data-aos-delay="100">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
-          <img src="assets/cosmetics_beauty_lipstick_pouch_makeup_icon_186818.svg" alt="logo" loading="lazy" />Lojinho
-          do Viniboy</a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" href="#cards">Produtos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" href="#footer">Fale Conosco</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Categorias
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="apenasbatom.html">Batom</a></li>
-              <li><a class="dropdown-item" href="apenasdelineador.html">Delineador</a></li>
-              <li><a class="dropdown-item" href="apenasmascara.html">Máscara</a></li>
-              <li><a class="dropdown-item" href="apenasperfume.html">Perfume</a></li>
-            </ul>
-          </li>
-        </ul>
+    <div class="logo">
+      <h1 class="text-light"><a href="index.html"><img src="assets/img/Logo.svg" alt="" class="img-fluid"></a></h1>
       </div>
-      <div class="d-flex align-items-center">
-        <a class="text-reset me-3" href="#">
-          <i class="fas fa-shopping-cart"><img src="assets/shopping-cart_icon-icons.com_72552.svg" alt="carrinho"
-              id="carrinho"></i>
-        </a>
-        <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
-          data-mdb-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bell"><img src="assets/alarm-bell_icon-icons.com_68596.svg" alt="notificacao"
-              id="notificacao"></i>
-          <span class="badge rounded-pill badge-notification bg-danger"></span>
-        </a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
-        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuLink"
-          role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-          <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="25" alt=""
-            loading="lazy" id="avatar"/>
-        </a>
 
-        <!--Dropdown-->
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">My profile</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Settings</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Logout</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!--Navbar end-->
+    <nav id="navbar" class="navbar" >
+      <ul>
+        <li><a class="nav-link scrollto active" href="#carousel">Home</a></li>
+        <li><a class="nav-link scrollto" href="#portfolio">Produtos</a></li>
+        <li><a class="nav-link scrollto" href="#footer">Fale Conosco</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
+  </div>
+</header>
+<!-- End Header -->
 
-  <!--Cards-->
-  <div class="row row-cols-1 row-cols-md-1 g-4" id="cards">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
 
-    <div class="col">
-      <div class="card h-100" id="card1">
-        <img src="assets/feelin-para-ele1-8e986deb454f813ba915329834510579-1024-1024.png" class="img-fluid"
-          alt="perfume" id="imagem-compra">
-        <div class="card-body">
+        <div class="row gy-4">
 
-          <h5 class="card-title">Perfume Feelin Para Ele</h5>
-          <p class="card-text">A Fragrância Feelin’ For Him Hinode revela um estado de consciência que vai além do toque
-            e emoção. Desenvolvida pela perfumista Eve Miralles e inspirado no magnetismo e poder de sedução do homem
-            moderno, Feelin’ For Him é o resultado da combinação entre notas verdes de folhas de violeta e de figo com
-            grapefruit, bergamota da Calábria e pimenta branca. O patchouli e o toque de couro do açafrão ressaltam a
-            força do Musk, da fava tonka e do incenso.</p>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/feelin-para-ele1-8e986deb454f813ba915329834510579-1024-1024.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/feelin slide 2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/feelin slide 3.jpg" alt=""> 
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Perfume Feelin Para Ele</h3>
+              <ul>
+                <li><strong>Valor</strong>: R$149,00</li>
+                <li><strong>Parcelas</strong>: 12x de R$14,96</li>
+                <div id="liveAlertPlaceholder"></div>
+                <li id="btn-compra"><a id="liveAlertBtn" class="btn btn-warning">Comprar</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Descrição do Produto</h2>
+              <p>
+                A Fragrância Feelin’ For Him Hinode revela um estado de consciência que vai além do toque e emoção. Desenvolvida pela perfumista Eve Miralles e inspirado no magnetismo e poder de sedução do homem moderno, Feelin’ For Him é o resultado da combinação entre notas verdes de folhas de violeta e de figo com grapefruit, bergamota da Calábria e pimenta branca. O patchouli e o toque de couro do açafrão ressaltam a força do Musk, da fava tonka e do incenso.
+              </p>
+            </div>
+          </div>
+
         </div>
-        <div class="card-footer">
-          <h3>R$149,00</h3>
-          <p>12x de R$14,96</p>
-          <button onclick="comprar()" class="btn btn-primary">Comprar</a>
-        </div>
+
       </div>
-    </div>
+    </section>
+    <!-- End Portfolio Details Section -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+crossorigin="anonymous"></script>.
+<script src="js/swiper/swiper-bundle.min.js"></script>
+<script src="js/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/glightbox/js/glightbox.min.js"></script>
+<script src="js/glightbox/glightbox.js"></script>
 </body>
 
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted" id="footer">
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <div class="me-5 d-none d-lg-block">
-      <span>Entre em contato conosco através de nossas mídias sociais:</span>
+<!-- ======= Footer ======= -->
+<section id="footer">
+  <footer class="bg-light text-center text-lg-start" data-aos="fade">
+    <div class="container p-4 pb-0">
+      <form action="">
+        <div class="row">
+          <div class="col-auto mb-4 mb-md-0">
+            <p class="pt-2">
+              <strong>Entre em contato conosco atravez do nosso email!!</strong>
+            </p>
+          </div>
+  
+          
+  
+          <div class="col-auto mb-4 mb-md-0">
+            <a type="submit" href="mailto:lojinhodoviniboy@gmail.com" class="btn btn-warning mb-4">
+              Enviar
+            </a>
+          </div>
+        </div>
+  
+        <div>
+          <p> <b> Nossos parceiros:</b> </p>
+          <a class="text-dark" href="https://exodiastore.netlify.app/" target="_blank"><b>Exodia Store</b></a> <i class="bi bi-person-badge"></i><br> 
+          <a class="text-dark" href="https://conectados.netlify.app/" target="_blank"><b>THOVI</b></a> <i class="bi bi-building"></i><br>
+          <a class="text-dark" href="https://brilhantech.netlify.app/" target="_blank"><b>BrilhanTech</b></a> <i class="bi bi-pc-display"></i> 
+        </div>
+      </form>
     </div>
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"> <img src="assets/facebook_internet_media_network_social_icon_123257.svg"
-            alt="facebook" id="facebook"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"> <img src="assets/twitter-logo-on-black-background_icon-icons.com_72503.svg"
-            alt="twitter" id="twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"> <img src="assets/google-plus-logo-on-black-background_icon-icons.com_72719.svg"
-            alt="google" id="google"> </i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"> <img src="assets/instagram-symbol_icon-icons.com_73522.svg" alt="instagram"
-            id="instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"><img src="assets/linkedin_icon_135436.svg" alt="linkedin" id="linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"><img src="assets/github_git_icon_145985.svg" alt="github" id="github"></i>
-      </a>
-    </div>
-  </section>
-
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="fw-bold mb-4">
-            <i class="fas fa-gem me-3"> <img src="assets/cosmetics_beauty_lipstick_pouch_makeup_icon_186818.svg"
-                alt="logo"> </i>Lojinho do Viniboy
-          </h6>
-          <p>
-            Aqui você pode entrar em contato com nossa empresa, fazer alguma solicitação conosco e verificar algumas
-            informações e novidades sobre nossos novos produtos e lançamentos.
-          </p>
-        </div>
-
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Nossos Parceiros
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Hinode</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Avon</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Natura</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Jequiti</a>
-          </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Links Úteis
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Guia do Usuário</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Dúvidas Frequentes</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Pedidos</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Fale Conosco</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Contato
-          </h6>
-          <p><i class="fas fa-home me-3"></i> Recife, Rua sem Nome 666, BR</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@lojinhodoviniboy.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-      </div>
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      &copy; 2021 Copyright:
+      <a class="text-dark" href="https://kansetsu.netlify.app/" target="_blank">Kansetsu</a>
+     <br> Desenvolvido por: <a class="text-dark" href="https://github.com/Vinicius-AndradeM" target="_blank"> Vinícius Andrade </a>
     </div>
   </section>
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="#">LojinhoDoViniboy.com</a>
-  </div>
-</footer>
 
 </html>
